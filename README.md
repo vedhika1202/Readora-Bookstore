@@ -1,10 +1,10 @@
 # 📚 Readora
 
-![Project Preview](./images/project-preview.png?raw=true)
+![Project Preview](./images/homePage-preview.png?raw=true)
 
 | Home Page | Admin Dashboard |
 | :--------: | :-------------: |
-| ![](./images/project-preview.png) | ![](./images/dashboard-preview.png) |
+| ![](./imageshomePage-preview.png) | ![](./images/dashboard-preview.png) |
 
 <h1 align="center">Readora</h1>
 
@@ -169,11 +169,15 @@ npm run dev
 
 ## Home
 
-![Home](./images/project-preview.png)
+![Home](./images/homePage-preview.png)
 
 ## Cart
 
 ![Cart](./images/cart-preview.png)
+
+## Single Book Preview
+
+![Cart](./images/book-preview.png)
 
 ## Dashboard
 
