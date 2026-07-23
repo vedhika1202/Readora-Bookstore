@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "Abdullah Koyuncu",
+  "author": "Vedhika Basa",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
