@@ -1,6 +1,5 @@
 import { Link, useNavigate } from "react-router";
 import {
-  HiMiniBars3CenterLeft,
   HiOutlineHeart,
   HiOutlineShoppingCart,
 } from "react-icons/hi2";

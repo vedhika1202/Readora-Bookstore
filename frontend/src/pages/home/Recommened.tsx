@@ -9,7 +9,7 @@ const Recommened = () => {
   const { data: books = [] } = useFetchAllBooksQuery({});
 
   interface Book {
-  id: string;
+  _id: string;
   title: string;
   author: string;
   createdAt: string;
