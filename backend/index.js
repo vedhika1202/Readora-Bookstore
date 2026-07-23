@@ -8,11 +8,14 @@ const mongoose = require("mongoose");
 const port = process.env.PORT || 5000;
 require('dotenv').config()
 
-app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', '[::1]:5173'], // You can (and you need to) add your vercel/heroku URL here
-    credentials: true
-}))
+  origin: [
+    "http://localhost:5173",
+    "http://[::1]:5173",
+    "https://spontaneous-bublanina-35c8f2.netlify.app"
+  ],
+  credentials: true
+}));
 
 const bookRoutes = require('./src/books/book.route');
 const orderRoutes = require("./src/orders/order.route")
